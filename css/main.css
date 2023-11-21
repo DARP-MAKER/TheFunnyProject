@@ -1,0 +1,186 @@
+body {
+
+    background-color: rgb(20, 167, 212);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.logo {
+
+    max-width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.logo2 {
+ max-width: 50px;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+.button {
+
+    color: white;
+    text-decoration: none;
+    background-color: rgb(25, 25, 160);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.out {
+    margin-left: 1250px;
+    position: absolute;
+}
+
+.login-container {
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.login-container-2 {
+    display: grid;
+    place-items: center;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    place-items: center;
+    display: grid;
+   
+}
+
+.form input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+#miLista {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.form select {
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-image {
+    max-width: 150px;
+}
+
+.export {
+    max-width: 20px;
+}
+
+.card   {
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+.card label {
+    font-family: 'Roboto', sans-serif;
+}
+ 
+
+.card h3 {
+
+    font-family: 'Roboto', sans-serif;
+}
+ 
+.card span {
+    margin: 0 10px; /* Ajusta según tus necesidades */
+}
+
+.card label span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card h3 span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.card h1,
+.card h3,
+.card p,
+.card label,
+.card button {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#reloj-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#reloj {
+    font-size: 5em;
+}
+
+.punchIn {
+    margin-top: 20px;
+}
+
+.punchIn button {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(25, 25, 160);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer; /* Agrega este estilo para indicar que es interactivo */
+}
+
+
+
+.punchIn button:hover {
+    background-color: rgb(15, 15, 130);
+}
+
+.punchinbutton {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(25, 25, 160);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.punchOut button {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(25, 25, 160);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer; /* Agrega este estilo para indicar que es interactivo */
+}
+
+
+.attach {
+    margin-top: 10px;
+    max-width: 30px;
+}
